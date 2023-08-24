@@ -29,6 +29,7 @@ public class MainTest {
 	void printGreeting_givenNameNerd_outputSuccess() {
 	    Main.printGreeting("Nerd");
 	    assertEquals("Hello Nerd", outputStreamCaptor.toString().trim());
+	    
 	}
 	
 	@Test
